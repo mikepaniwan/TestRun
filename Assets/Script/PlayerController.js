@@ -26,7 +26,7 @@ function Update () {
 		else if(Input.GetKey(KeyCode.X) && !spawned) {
 			decay = 1f;
     		spawned = true;
-			Instantiate (prefabBullet, Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity);
+			Instantiate (prefabBullet, Vector3(transform.position.x+1.0f, transform.position.y, 0), Quaternion.identity);
 			animator.SetInteger("Activity",3);
 		}
 		else  {

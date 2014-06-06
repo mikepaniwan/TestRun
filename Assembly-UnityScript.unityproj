@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\BackgroundLoop.js" />
+     <Compile Include="Assets\Script\BullerDestroyer.js" />
      <Compile Include="Assets\Script\BulletController.js" />
      <Compile Include="Assets\Script\CameraRun.js" />
      <Compile Include="Assets\Script\GameUI.js" />
